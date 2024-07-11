@@ -166,7 +166,7 @@ body {
 
 /* my target style */
 #fourth {
-    height: 1020px;
+    height: 500px;
     margin: 100px 0;
 }
 
@@ -201,19 +201,66 @@ body {
 #fourth .card-box1 {
     background: rgba(255, 76, 30, 0.05);
 }
-.card{
+
+.card {
     padding: 40px;
 }
-.br{
+
+.br {
     border-radius: 16px;
     margin: 0 10px;
 }
 
-#fourth .card-box2{
-background: rgba(0, 76, 232, 0.05);
+#fourth .card-box2 {
+    background: rgba(0, 76, 232, 0.05);
 }
 
-#fourth .card-box3{
-
-background: rgba(255, 223, 0, 0.05);
+#fourth .card-box3 {
+    background: rgba(255, 223, 0, 0.05);
 }
+
+/* support */
+#fifth {
+    height: 500px;
+}
+
+#fifth .support-container {
+    height: 314px;
+    background-image: url(/assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    text-align: center;
+    padding: 64px 48px 64px 48px;
+}
+
+.support-container .title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.support-container .des{
+    color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+margin: 20px 0;
+box-sizing: border-box;
+}
+.support-container .letter{
+    width: 30%;
+    padding: 15px;
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+    border: none;
+}
+.support-container .submit{
+    padding: 15px;
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+border: none;
+}
+
+
