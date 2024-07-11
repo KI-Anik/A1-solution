@@ -4,8 +4,9 @@
 * {
     margin: 0;
     padding: 0;
-}
-
+        scroll-behavior: smooth;
+    }
+    
 body {
     font-family: "Azeret Mono", monospace;
 }
@@ -135,6 +136,8 @@ body {
     line-height: 23px;
     text-align: center;
     padding: 12px 20px 12px 20px;
+    cursor: pointer;
+
 }
 
 /* MY inspiration style */
@@ -226,7 +229,7 @@ body {
 
 #fifth .support-container {
     height: 314px;
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(./assets/handshake.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -249,18 +252,30 @@ opacity: 0.7;
 margin: 20px 0;
 box-sizing: border-box;
 }
-.support-container .letter{
+.support-container .feedback{
     width: 30%;
     padding: 15px;
     border-radius: 8px;
-background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
     border: none;
+    font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+background: rgb(255, 255, 255);
+
 }
 .support-container .submit{
-    padding: 15px;
+    padding: 13px;
     border-radius: 8px;
 background: rgb(255, 255, 255);
 border: none;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
 }
 
+#foot .foot-container{
+    display: flex;
+    justify-content: space-around;
+}
 
