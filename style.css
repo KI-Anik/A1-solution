@@ -229,7 +229,7 @@ body {
 
 #fifth .support-container {
     height: 314px;
-    background-image: url(./assets/handshake.jpg);
+    background-image:  url(./assets/handshake.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -274,8 +274,20 @@ font-weight: 600;
 line-height: 23px;
 }
 
+#foot{
+background: rgba(13, 19, 33, 0.03);
+    height: 100px;
+    border-radius: 16px;
+    align-content: center;
+}
+
 #foot .foot-container{
     display: flex;
     justify-content: space-around;
+}
+.foot-container .title{
+    font-size: 20px;
+font-weight: 600;
+line-height: 23px;
 }
 
